@@ -1,0 +1,30 @@
+Building and installing opencv-utils
++++++++++++++++++++++++++++++
+
+Author: Meriem Bendris <m.bendris@gmail.com>
+
+
+PREREQUISITES
+=============
+
+Building opencv-utils requires the following software installed:
+
+    - G++ 4.8 or later
+    - ffmpeg or libav development packages: libavcodec-dev, libavformat-dev, libswscale-dev
+    - OpenCV 2.4 or later
+    - Libconfig 1.4 or later
+    - LibXML++2.6 or later
+
+
+
+
+COMPILE
+=======
+This tool was build on Ubuntu 12.04. You may need to modify the Makefile to adapt to your distribution
+
+    - Basic installation  to "make". Generates binaries on the directory /bin
+
+
+USE
+===
+Find how to use the tools in https://github.com/meriembendris/opencv-utils/wiki
